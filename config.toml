@@ -1,0 +1,129 @@
+baseurl      = "tanui.github.io"
+title        = "My Blog"
+languageCode = "en-us"
+theme        = "hello-4s3ti"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Living with a bit of madness"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+  # Set a background for the homepage
+  backgroundImage = ""
+
+  # Adds a dark overlay over the background
+  backgroundEffects = false
+
+  # Sets the default theme
+  defaultTheme = "light"
+
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating system. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true
+
+  # Shows Posts on the front/Home page
+  showPosts = true
+
+  # Shows the ReadMore button in text instead
+  ReadmoreText = true
+
+  # Hides ReadMore
+  hideReadMore = false
+
+  # Shows reading time
+  ShowReadingTime = true
+
+  [params.footer]
+    trademark = false
+    rss = false
+    copyright = false
+    author = true
+
+    # Shows social icons on footer instead of main page
+    socialIcons = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "tanui.ninja"
+    subtitle = ""
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Tanui"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/themes/hugo-theme-hello-4s3ti/"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+
+  [[menu.main]]
+    identifier = "achievements"
+    name       = "Achievements"
+    url        = "/achievements"
+
+  [params.fontAwesome]
+    KitURL = "https://kit.fontawesome.com/4c17fa8abb.js"
+
+  # Socials
+  [[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/@themadbit"
+
+  [[params.social]]
+  name = "github"
+  url = "https://github.com/MarkTanui"
+
+  [[params.social]]
+  name = "linkedin"
+  url = "#"
