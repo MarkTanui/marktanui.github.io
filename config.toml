@@ -65,7 +65,7 @@ paginate     = 10
     topText = []
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
+      "Copyright: Tanui 2022"
     ]
 
   # Colors for favicons
