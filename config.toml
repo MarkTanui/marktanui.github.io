@@ -112,6 +112,11 @@ paginate     = 10
     name       = "Achievements"
     url        = "/achievements"
 
+  [[menu.main]]
+    identifier = "technical_blog"
+    name       = "Technical Blog"
+    url        = "https://hackmd.io/@themadbit"
+
   [params.fontAwesome]
     KitURL = "https://kit.fontawesome.com/4c17fa8abb.js"
 
