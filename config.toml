@@ -25,7 +25,7 @@ paginate     = 10
   images = [""]
 
   # Set a background for the homepage
-  backgroundImage = "./resources/bg.jpeg"
+  backgroundImage = "assets/advent-of-cyber.png"
 
   # Adds a dark overlay over the background
   backgroundEffects = false
