@@ -1,4 +1,4 @@
-baseurl      = "tanui.github.io"
+baseurl      = "marktanui.github.io"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-4s3ti"
@@ -25,7 +25,7 @@ paginate     = 10
   images = [""]
 
   # Set a background for the homepage
-  backgroundImage = ""
+  backgroundImage = "./resources/bg.jpeg"
 
   # Adds a dark overlay over the background
   backgroundEffects = false
