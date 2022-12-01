@@ -105,7 +105,7 @@ paginate     = 10
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "/abouts"
+    url        = "/abouts/tanui.md"
 
   [[menu.main]]
     identifier = "achievements"
