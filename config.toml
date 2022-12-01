@@ -25,7 +25,7 @@ paginate     = 10
   images = [""]
 
   # Set a background for the homepage
-  backgroundImage = "assets/advent-of-cyber.png"
+  backgroundImage = "https://camo.githubusercontent.com/c82f2d9705da9d9965f3e1f0f0c7104ed53bfad38b70a3d9c246627f809c64aa/68747470733a2f2f7261772e6769746875622e636f6d2f437574654c656f6e2f4861636b53797374656d2f6d61737465722f7372632f4861636b53797374656d2e5765622f777777726f6f742f4c6f676f496d6167652e706e67"
 
   # Adds a dark overlay over the background
   backgroundEffects = false
@@ -116,6 +116,11 @@ paginate     = 10
     identifier = "technical_blog"
     name       = "Technical Blog"
     url        = "https://hackmd.io/@themadbit"
+
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
 
   [params.fontAwesome]
     KitURL = "https://kit.fontawesome.com/4c17fa8abb.js"
