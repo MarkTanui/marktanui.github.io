@@ -89,7 +89,7 @@ paginate     = 10
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Tanui"
+      logoText = "Home|th3madbit"
       logoHomeLink = "/"
     # or
     #
@@ -110,7 +110,7 @@ paginate     = 10
   [[menu.main]]
     identifier = "achievements"
     name       = "Achievements"
-    url        = "/achievements"
+    url        = "/achievements/achievements"
 
   [[menu.main]]
     identifier = "technical_blog"
