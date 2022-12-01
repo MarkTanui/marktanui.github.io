@@ -25,7 +25,7 @@ paginate     = 10
   images = [""]
 
   # Set a background for the homepage
-  backgroundImage = "https://cssregtech.com/wp-content/uploads/2021/08/shutterstock_652144957-1100x733.jpg"
+  backgroundImage = "https://github.com/MarkTanui/marktanui.github.io/blob/main/assets/shutterstock_652144957-1100x733.jpg?raw=true"
 
   # Adds a dark overlay over the background
   backgroundEffects = false
