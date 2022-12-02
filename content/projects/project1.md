@@ -1,7 +1,7 @@
 ---
 title: "Project1"
 date: 2022-12-01T22:49:48+03:00
-draft: true
+draft: false
 ---
 
 ### This is Mark Tanui AKA themadbit.
