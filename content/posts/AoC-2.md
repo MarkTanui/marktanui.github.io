@@ -7,7 +7,8 @@ images:
 tags: ["AoC 2022", "Log Analysis"]
 ---
 
-## Aoc [Day 2] ```Log Analysis``` Santa's Naughty & Nice Log
+## AoC [Day 2]
+```Log Analysis```: Santa's Naughty & Nice Log
 
 *On the second day of christmas: I helped McBlue analyse log files.*
 
