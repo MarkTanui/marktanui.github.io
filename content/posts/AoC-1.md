@@ -8,7 +8,7 @@ tags: ["AoC 2022", "Cyber Security Frameworks "]
 ---
 
 ## AoC [Day 1]
-## ```Frameworks``` Someone's coming to town!
+```Frameworks```: Someone's coming to town!
 
 *On the first day of christmas: I met McSkidy*
 
