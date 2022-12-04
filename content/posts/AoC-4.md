@@ -1,6 +1,6 @@
 ---
 title: "AoC#4"
-date: 2022-12-02
+date: 2022-12-04
 draft: false
 toc: false
 images:
