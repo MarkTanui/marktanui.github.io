@@ -1,6 +1,6 @@
 ---
 title: Practical Analysis of PCAP Files.
-date: 2022-12-06
+date: 2022-12-08
 draft: false
 toc: false
 tags: ["Network Analysis", "Wireshark"]
