@@ -68,7 +68,7 @@ So I did: `statistics` --> `Endpoints` --> `TCP` and then sorted the list in asc
 I figured that this should be the first filter to apply.
 
 ![](https://i.imgur.com/u9quAW6.png)
-And yes, a http `GET` request was sent for `/password.txt` - `http` traffic is always in plain text making it unsafe to use sites that require logins/credit card or other credentials.
+And yes, a http `GET` request was sent for `/password.txt` - `http` traffic is always in plain text making it unsafe to use it in sites that require logins/credit cards or other credentials.
 
 Following the `http` stream, the password is there in plain sight!
 

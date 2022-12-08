@@ -1,13 +1,13 @@
 ---
-title: Wireshark Analysis.
-date: 2022-12-06
+title: Wireshark Analysis
+date: 2022-12-08
 draft: false
 toc: false
 tags: ["Network Analysis", "Wireshark"]
 ---
 
 # Wireshark Filters & PCAP File Analysis.
-This piece is a prequel to [PCAP Analysis In 1, 2, 3…go]()
+This piece is a prequel to [PCAP Analysis In 1, 2, 3…go](https://marktanui.github.io/posts/wireshark-analysis)
 
 ---
 
