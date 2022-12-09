@@ -1,7 +1,7 @@
 baseURL = "https://marktanui.github.io/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "loveIt"
+theme = "LoveIt"
 
 # website title
 title = "Tanui | Home"
