@@ -7,14 +7,13 @@ tags: ["Network Analysis", "Wireshark"]
 ---
 
 # Wireshark Filters & PCAP File Analysis.
-This piece is a prequel to [PCAP Analysis In 1, 2, 3…go](https://marktanui.github.io/posts/wireshark-analysis)
+This piece is a prequel to [PCAP Analysis In 1, 2, 3…go](https://marktanui.github.io/posts/wireshark-analysis/)
 
 ---
 
 Wireshark is a **`free and open-source`** network protocol analyzer. It is used for network troubleshooting, `analysis`, software and communications protocol development, and education. Wireshark provides a graphical user interface (GUI) that allows users to interactively browse and analyze captured network traffic. It is available for various platforms, including `Windows`, `macOS`, and `Linux`.
 
 Wireshark is pre-installed in KaliLinux and Parrot OS. You can however install it in *your OS. Checkout the download page [here](https://www.wireshark.org/download.html)
-
 ## Wireshark Filters.
 
 Wireshark provides a large number of capture and display filters that can be used to analyze and filter network traffic. These filters allow users to focus on specific types of traffic or isolate packets of interest.
