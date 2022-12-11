@@ -108,7 +108,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  Custom content (HTML format is supported)
     custom = ''
     #  whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
@@ -208,6 +208,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Social config about the author
   [params.social]
     GitHub = "MarkTanui"
+    Tryhackme = "xxxx"
     Linkedin = ""
     Twitter = "@themadbit"
     Instagram = ""
@@ -477,7 +478,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       [params.page.seo.publisher]
         name = ""
-        logoUrl = ""
+        logoUrl = "https://www.flaticon.com/free-icon/cpu_526928"
 
   #  TypeIt config
   [params.typeit]
