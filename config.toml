@@ -92,7 +92,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "https://github.com/MarkTanui/marktanui.github.io/blob/main/assets/bits.png?raw=true"
       # title name
       name = "Tanui"
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -478,7 +478,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       [params.page.seo.publisher]
         name = ""
-        logoUrl = "https://cdn-icons-png.flaticon.com/512/5044/5044387.png"
+        logoUrl = ""
 
   #  TypeIt config
   [params.typeit]
