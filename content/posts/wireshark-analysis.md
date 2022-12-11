@@ -1,5 +1,5 @@
 ---
-title: Practical Analysis of PCAP Files.
+title: Practical Analysis of PCAP Files
 date: 2022-12-08
 draft: false
 toc: false
@@ -64,6 +64,7 @@ So I did: `statistics` --> `Endpoints` --> `TCP` and then sorted the list in asc
 ## PCAP 2
 
 ***1. What is the WebAdmin password?***
+
 `http(s)` is the protocol used for GET/POST and other requests in the world wide web.
 I figured that this should be the first filter to apply.
 
@@ -77,6 +78,7 @@ Following the `http` stream, the password is there in plain sight!
 
 
 ***2. What is the version number of the attacker’s FTP server?***
+
 Used the `ftp` display filter.
 Followed the FTP stream, and got the version.
 
@@ -84,11 +86,13 @@ Followed the FTP stream, and got the version.
 
 
 ***3. Which port was used to gain access to the victim Windows host?***
+
 Following through the PCAP file, I noticed that just before the file transfer started, there was an attempt to connect to victim's `port 8081`. Using that lead, I found that a response from `8081` provided the attacker an `ftp server`.
 
 I concluded that this port was used to gain access. Is there another way around this? Kindly share it.
 
 ***4. What is the name of a confidential file on the Windows host?***
+
 Filtering and following streams is the rule of this game: pcap analysis.
 For this question, I decide to use the `data` display filter. Why? I figured out that if I'm supposed to get a file name, then it would as well mean that there's a data transfer that occurred.
 
@@ -102,6 +106,7 @@ Next, I decided to follow the `tcp stream`.
 With that I could see all the commands used on the victim's machine, and their output as well. I also could tell the confidential file in the machine. Can you?
 
 ***5. What is the name of the log file that was created at 4:51 AM on the Windows host?***
+
 Easy-Peasy!
 It's in plain text from the above stream.
 
