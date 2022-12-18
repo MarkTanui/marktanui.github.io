@@ -58,12 +58,20 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/tanui/"
     title = ""
   [[menu.main]]
-    weight = 3
+    weight = 4
     identifier = "projects"
     pre = ""
     post = ""
     name = "Projects"
     url = "/projects/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "Notes to S3lf"
+    pre = ""
+    post = ""
+    name = "Notes to S3lf"
+    url = "/notes_to_self/"
     title = ""
 
 [params]
