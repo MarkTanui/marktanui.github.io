@@ -1,3 +1,11 @@
+---
+title: Loving Ourz
+date: 2022-12-18
+draft: false
+toc: false
+tags: ["Relationships", "Love"]
+---
+
 ### Dear friend,
 
 As I write this, I'm listening to [J.Cole's love yourz](https://open.spotify.com/track/2e3Ea0o24lReQFR4FA7yXH?si=3d9155e8fdcf4577). One of my favorite songs from him, coz there's no such thing like a life that's better than yourz. And definitely no life is better than mine. (Three seconds of affirmation there)
