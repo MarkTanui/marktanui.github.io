@@ -29,7 +29,6 @@ How is school? What's that inside you that has been different? What are those th
 
 
 
-
 yourz,
 
 Mark Tanui aka [themadbit](https://twitter.com/@themadbit).
